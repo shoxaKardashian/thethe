@@ -1,0 +1,16 @@
+mixin menu(menuClass, menuItems)
+    ul(class= ""+menuClass)
+        each item in menuItems
+            li
+                a(href="#") #{item}
+
+
+mixin section-title(title, subtitle, color)
+    if(color === "black")
+        .title.title--with-bottom-line-black
+            h2.title__header.title--black #{title}
+            .title__text.title--black #{subtitle}
+    else
+        .title.title--with-bottom-line-white
+            h2.title__header.title--white #{title}
+            .title__text.title--white #{subtitle}

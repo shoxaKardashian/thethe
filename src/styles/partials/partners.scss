@@ -1,0 +1,31 @@
+.partners {
+    background-image: url("../img/BGs/partners-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h2 {
+        color: white;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-right: -10%;
+        align-items: center;
+        padding: 5% 0;
+    }
+
+    &__item {
+       flex-grow: 1;
+       margin-right: 10%;
+       flex-basis: 100px;
+       padding: 1% 0;
+       
+       
+       /* border: 1px solid white; */
+    }
+
+
+}

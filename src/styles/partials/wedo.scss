@@ -1,0 +1,33 @@
+.wedo-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5%;
+    margin-top: 5%;
+
+    .wedo-column {
+        //flex-basis: 45%;
+        flex-basis: 300px;
+        flex-grow: 1;
+        margin-right: 5%;
+    }
+}
+
+.wedo-item {
+    color: $primary-color;
+
+    &__icon {
+        width: 15%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+        margin: 2% 0;
+    }
+
+    &__text {
+        font-size: 1.4rem;
+        margin-bottom: 8%;
+    }
+
+}

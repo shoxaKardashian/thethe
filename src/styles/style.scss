@@ -1,0 +1,24 @@
+// @import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+
+@import "global/base";
+@import "global/fonts";
+@import "global/vars";
+@import "global/mixins";
+@import "global/buttons";
+@import "global/common";
+@import "global/titles";
+@import "global/sprite";
+
+
+
+@import "partials/header";
+@import "partials/projects";
+@import "partials/wedo";
+@import "partials/partners";
+@import "partials/footer";
+
+
+
+
+

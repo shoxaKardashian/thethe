@@ -1,0 +1,132 @@
+footer {
+    background-color:#F1F2F2;
+    overflow: hidden;
+  
+}
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+    font-family: $font-basic;
+    flex-wrap: wrap;
+
+}
+
+.footer-column {
+    flex-basis: 50%;
+    &__logo {
+        max-width: 30%;
+        min-width: 120px;
+    }
+
+    &__row {
+        display: flex;
+        margin-right: -5%;
+        font-family: $font-basic;
+        color: $primary-color;
+        justify-content: flex-end;
+    }
+    &__item {
+        margin-right: 5%;
+        flex-basis: 50%;
+        
+    }
+    
+    &__header {
+            font-size: 25px;
+            font-weight: bold;
+            padding-bottom: 10px;
+            border-bottom: 3px solid $secondary-color;
+            //margin-bottom: 20px;
+            margin-top: 0;
+            
+    }
+        
+    &__list  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+        
+    
+        li {
+            padding: 2%;
+            font-size: 1.6rem;
+            font-weight: 100;
+        }
+    }
+
+}
+
+.contacts {
+        margin: 10% 0;
+    
+        &__info {
+            display: block;
+            font-size: 15px;
+            color: $primary-color;
+            padding: 5px 0;
+        }
+}
+
+.social {
+
+    &__info {
+        margin-right: 5%;
+        color: $primary-color;
+        font-size: 1.7rem;
+
+        &:hover {
+            color: $secondary-color;
+        }
+    }
+}
+
+
+
+
+
+
+.footer-bottom {
+        padding-bottom: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        &__rights {
+            color: $primary-color;
+            font-family: $font-basic;
+            font-size: 1.6rem;
+        }
+
+        &__logo {
+
+
+            img {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+        &__icon {
+            fill: #fff;
+            width: 20px;
+            height: 20px;
+            margin-right: 7px;
+            stroke: #fff;
+        }
+
+        &__lng {
+            color: $font-basic;
+            font-family: $font-basic;
+            text-transform: uppercase;
+            font-size: 1.25rem;
+        }
+}
+
+
+
+

@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        title Magic Friday 2018 — Шоппинг в Ташкенте с большими скидками
+        script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
+        link(rel="stylesheet" href="styles/style.min.css")
+
+    body
+
+        //- Миксины
+        include templates/global/mixins
+
+        //- Header section
+        include templates/header
+
+        //- Project section
+        include templates/projects
+
+        //- WeDo section
+        include templates/wedo
+
+        //- Partners section
+        include templates/partners
+
+        //- Footer section
+        include templates/footer
+    
+
+    script(src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" defer)
+    script(src="js/bundle.min.js" defer)

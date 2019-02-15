@@ -1,0 +1,51 @@
+.title {
+  margin-bottom: 65px;
+  text-align: center;
+
+
+  &__header {
+    margin: 0;
+    font-size: 2.25rem;
+    font-family: 'PT Sans';
+    line-height: 1;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    font-family: 'PT Sans';
+  }
+
+  &--black {
+    color: #000;
+  }
+
+  &--white {
+    color: #fff;
+  }
+
+  &--with-bottom-line-black {
+    position: relative;
+
+    &:after {
+      content: '';
+      @include center-x();
+      bottom: -16px;
+      width: 40px;
+      height: 4px;
+      background-color: #424242;
+    }
+  }
+
+  &--with-bottom-line-white {
+    position: relative;
+
+    &:after {
+      content: '';
+      @include center-x();
+      bottom: -16px;
+      width: 40px;
+      height: 4px;
+      background-color: #fff;
+    }
+  }
+}
